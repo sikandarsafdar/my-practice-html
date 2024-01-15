@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
-        input[type=text]{
+        /* input[type=text]{
             border: 5px solid black;
 padding-right: 50px;
 padding-left: 150px;
@@ -10,52 +11,59 @@ margin-left: 50px;
 margin-right: 50px;
 margin-top:30px ;
 border-radius: 5px;
-font-size: large;}
-        
-        input[type=number]{
-border: 5px solid black;
-padding-right: 50px;
-padding-left: 150px;
-margin-left: 50px;
-margin-right: 50px;
-margin-top:30px ;
-border-radius: 5px;
-font-size: large;}
+font-size: large;} */
 
-        input[type=submit]{
+        .common {
+            border: 5px solid black;
+            padding-right: 50px;
+            padding-left: 150px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 30px;
+            border-radius: 5px;
+            font-size: large;
+        }
+
+        .button {
             background-color: blue;
             text-align: center;
-            color:white;
-            padding-left: 200px;
-            padding-right: 280px;
+            color: white;
+            width: 70%;
+            margin-left: 55px;
+            margin-right: 75px;
             font-size: large;
             margin-top: 30px;
             margin-bottom: 30px;
+            border: 5px solid black;
+            border-radius: 35px;
         }
-        .abc{
+
+        .abc {
             border: 5px solid black;
             margin-left: 400px;
             margin-right: 400px;
-            
-           
+
+
         }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First page</title>
 </head>
+
 <body>
-   <h1 style="text-align: center;">Sign Up Form</h1> 
- <div class="abc">
-<form action="">
-   
-    <input type="text" name="Name" id="Name" placeholder="Name"><br>
-    
-    <input type="text" name="Email" placeholder="Email"> <br>
-    
-    <input type="number" name="Phone" placeholder="Phone Number"> <br>
-    <input type="submit">
-</form>
- </div>
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <div class="abc">
+        <form action="">
+
+            <input class="common" type="text" name="Name" id="Name" placeholder="Name"><br>
+
+            <input class="common" type="text" name="Email" placeholder="Email"> <br>
+
+            <input class="common" type="number" name="Phone" placeholder="Phone Number"> <br>
+            <input class="button" type="submit">
+        </form>
+    </div>
 </body>
+
 </html>
