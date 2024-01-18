@@ -1,18 +1,16 @@
- header:hover{
-color: white;
+ li:hover{
+color: black;
+background-color: white;
 } 
-body{
+.body{
     background-color: tomato;
 }
 ul li{
     display: inline-block;
     font-size: large;
-   
+   background-color: tomato;
 }
-div{
-    border: 1px solid black;
-   
-}
+
 h1{
     text-align: center;
    
@@ -42,11 +40,12 @@ pre{
 }
 .cas{
 position: static;
-padding-left: 600px;
+padding-left: 550px;
 height: 80px;
 }
 .tea{
-    padding-left: 100px;
+    position: static;
+    padding-right: 700px;
     height: 100px;
 }
 h6{
@@ -55,4 +54,10 @@ h6{
     padding: 50px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon{
+    padding-left: 550px;
+}
+h3{
+    padding-left: 135px;
 }
