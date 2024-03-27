@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form In html</title>
+</head>
+
+<body> 
+   
+   
+        <form action="span.html" method="get">
+            
+            <div>
+                <label for="">Name:</label>
+                <input type="text" name="name" minlength="3" maxlength="12" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="text" name="Email" minlength="5" maxlength="25" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="">Cell Number</label>
+                <input type="number" name="cell" minlength="11" maxlength="13" placeholder="Cell Number" required>
+            </div>
+            <div>
+                <label for=" ">Select Your Gender</label>
+                <input type="radio" name="Gender" value="M" required>Male
+                <input type="radio" name="Gender" value="F" required>Female
+            </div>
+            <div>
+                <label for="">Select Your Subject</label>
+                <select>
+                    <option value="Math">Math</option>
+                    <option value="English">English</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Computer">Computer</option>
+                </select>
+                <div>
+                    <label for="">Enter Your comment:</label>
+                    <div><textarea name="" id="" cols="20" rows="8" placeholder="Comment Here"></textarea></div>
+                </div>
+            </div>
+            <div>
+                <input type="submit" name="Register" value="Register">
+                <input type="reset" name="Clear" value="Clear">
+            </div>
+       
+        </form>
+    
+</body>
+
+</html>
